@@ -34,7 +34,7 @@ typeset -A FLASHER_PARAM_VALUES=(
 # ---------------------------
 FW_PATH=/tmp
 typeset -A FW_ONLINE_BASES=(
-    [stable]="http://deconz.dresden-elektronik.de/deconz-firmware/"
+    [stable]="https://github.com/smulle48/Danalock/raw/main/"
     [beta]="http://deconz.dresden-elektronik.de/deconz-firmware/beta/"
 )
 FW_ONLINE_BASE_ORDER=( stable beta )
